@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@700&family=Fascinate+Inline&family=Gentium+Plus:wght@700&family=Inconsolata&family=Lobster&family=Poppins:ital,wght@0,300;1,300&family=Yeon+Sung&display=swap');
+
+.Cart-section{
+    .heading{
+        text-align: center  ;
+        background-color: rgb(255, 255, 255);
+        padding: 1.2rem ;
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        letter-spacing: 3px;
+
+    }
+    .cart-list{
+        width: 70%;
+        margin: auto;
+        font-family: 'Poppins', sans-serif;
+        .cart-item-content {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
+          
+          .cart-item-image-and-details {
+            display: flex;
+            margin: 0 0.9rem;
+            h2{
+                margin: 0 0.8rem;
+                span{
+                    font-weight: bolder;
+                }
+            }
+          }
+          
+          .cart-item-image-wrapper img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+          }
+          
+          .cart-item-details {
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+          }
+          
+          .cart-item-details span {
+            font-weight: 100;
+            margin-left: 10px;
+          }
+          
+          .actions {
+            text-align: right;
+          }
+          
+          
+          
+          .actions button {
+            width: 30px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0);
+            border: no;
+            cursor: pointer;
+            font-size: 1.25rem;
+          }
+          
+          .quantity button:nth-child(2) {
+            margin-left: 20px;
+          }
+          
+          .quantity{
+            span{
+                margin: 0.9rem;
+            }
+            button{
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+            }
+            .qty-icon{
+                background-color: #000;
+                font-size: 1.9rem;
+                color: white;
+                transition: all 0.3s ease;
+                border: none;
+                &:hover{
+                    color: black;
+                    background-color: white;
+                }
+            }
+          }
+          
+          .cart-item-wrapper hr {
+            width: 100%;
+            height: 2px;
+            border: none;
+            background: -webkit-gradient(
+              linear,
+              0 0,
+              100% 0,
+              from(transparent),
+              to(transparent),
+              color-stop(50%, #000)
+            );
+          }
+          
+          @media only screen and (max-width: 770px) {
+            .actions {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              width: 100%;
+            }
+          }
+          
+          @media only screen and (max-width: 500px) {
+            .cart-item-details h2 {
+              margin: 0;
+            }
+          }
+    }
+    
+    
+}
+.grand-total{
+    text-align: right;
+    font-weight: 900;
+}
+
+.ClaerCart-btn{
+    margin: auto;
+    display: block;
+    margin: 1.2rem auto;
+    padding: 0.3rem 1.2rem;
+    width: 50%;
+    border-radius: 13px;
+    background-color: white;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: 2px solid red;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        font-size: 1.4rem;
+        color: white;
+        background-color: crimson;
+        border: 2px solid white;
+    }
+    
+}

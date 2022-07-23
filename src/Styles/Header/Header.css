@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@700&family=Fascinate+Inline&family=Gentium+Plus:wght@700&family=Inconsolata&family=Lato:ital,wght@1,700&family=Lobster&family=Poppins:ital,wght@0,300;1,300&family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@700&family=Fascinate+Inline&family=Gentium+Plus:wght@700&family=Inconsolata&family=Lato:ital,wght@1,700&family=Lobster&family=Poppins:ital,wght@0,300;1,300&family=Yeon+Sung&display=swap');
+.navbar {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px 2px 3px rgb(204, 203, 203);
+  letter-spacing: 2px;
+}
+.navbar .nav-content {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.navbar .nav-content h2 {
+  font-size: 2.3rem;
+  color: crimson;
+font-family: 'Lato', sans-serif;
+}
+.navbar .nav-content .Cart-btn {
+  padding: 8px;
+}
+.navbar .nav-content .Cart-btn .cart-icon {
+  font-size: 1.3rem;
+  color: crimson;
+  font-family: 'Inconsolata', monospace;
+
+}
+.navbar .nav-content .Cart-btn span {
+  color: red;
+  font-weight: bolder;
+}/*# sourceMappingURL=Header.css.map */

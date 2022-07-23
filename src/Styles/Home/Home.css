@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@700&family=Fascinate+Inline&family=Gentium+Plus:wght@700&family=Inconsolata&family=Lato:ital,wght@1,700&family=Lobster&family=Poppins:ital,wght@0,300;1,300&family=Yeon+Sung&display=swap');
+.store-section {
+  padding-top: 7rem;
+  background-image: url("../../assets/Menu/background3.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.9rem;
+}
+.store-section .item-container {
+  width: 25rem;
+  min-width: 20rem;
+  border: 1px solid black;
+  background-color: white;
+  margin: 0.7rem 0;
+  max-height: 30rem;
+
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 2px rgba(164, 163, 163, 0.803);
+  overflow: hidden;
+}
+.store-section .item-container .food-img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.store-section .item-container .food-info {
+  padding: 0.9rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.store-section .item-container .food-info .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.4rem;
+}
+.store-section .item-container .food-info .heading .price {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: 'Inconsolata', monospace;
+
+}
+.store-section .item-container .food-info .heading .name {
+  color: crimson;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+}
+.store-section .item-container .food-info p {
+  font-size: 1.09rem;
+  font-family: 'Poppins', sans-serif;
+}
+.store-section .item-container .food-info button {
+  padding: 0.4rem 0;
+  text-align: center;
+  width: 80%;
+  color: white;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  background-color: black;
+  transition: all 0.3s ease;
+
+}
+
+/*# sourceMappingURL=Home.css.map */

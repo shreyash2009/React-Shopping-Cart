@@ -1,0 +1,58 @@
+.store-section{
+    padding-top: 2rem;
+    background-image: url('../../assets/Menu/background.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.9rem;
+    .item-container{
+        width: 25rem;
+        min-width: 20rem;
+        border: 1px solid black;
+        background-color: white;
+        margin: 0.7rem 0;
+        max-height: 28rem;
+        min-height: 24rem;
+        border-radius: 10px;
+        overflow: hidden;
+        .food-img{
+            width: 100%;
+            height: 50%;
+            object-fit: fill;
+        }
+        .food-info{
+            padding: 0.9rem;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .heading{
+                display: flex;
+                justify-content: space-between;
+                margin: 0.4rem;
+                .price{
+                    color: goldenrod;
+                }
+                .name{
+                    color: crimson;
+                    font-size: 1.2rem;
+                }
+            }
+            p{
+                font-size: 1.09rem;
+            }
+            button{
+                padding: 0.4rem 0;
+                text-align: center;
+                width: 80%;
+                color: white;
+                margin: auto;
+                display: block;
+                border-radius: 10px;
+            }
+        }
+    }
+}
